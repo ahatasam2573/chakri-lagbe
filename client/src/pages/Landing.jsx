@@ -12,7 +12,7 @@ const Landing = () => {
 
             <div className="container page">
                 <div className="info">
-                    <h1>job <span>Tracking</span> app</h1>
+                    <h1>Need Your <span>Chakri??</span></h1>
                     <p>Welcome to your dream jobs where you can find yours jobs according to your skill. Just explore and find your jobs to fulfil your dream.</p>
                     <button className='btn btn-hero'>Login/Register</button>
                 </div>

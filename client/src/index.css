@@ -5,7 +5,8 @@
 }
 
 /* fonts */
-@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&family=Encode+Sans+Expanded:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cabin&family=Roboto+Condensed:wght@400;700&display=swap");
+
 html {
   font-size: 100%;
 } /*16px*/
@@ -14,26 +15,26 @@ html {
   /* colors */
   --primary-50: #e0fcff;
   --primary-100: #bef8fd;
-  --primary-200: #87eaf2;
-  --primary-300: #54d1db;
-  --primary-400: #38bec9;
-  --primary-500: #2cb1bc;
-  --primary-600: #14919b;
-  --primary-700: #0e7c86;
-  --primary-800: #0a6c74;
-  --primary-900: #044e54;
+  --primary-200: #87f2e6;
+  --primary-300: #54db95;
+  --primary-400: #0e5a38;
+  --primary-500: #2cbc3a;
+  --primary-600: #149b4f;
+  --primary-700: #0e8636;
+  --primary-800: #0a743d;
+  --primary-900: #04542f;
 
   /* grey */
   --grey-50: #f0f4f8;
   --grey-100: #d9e2ec;
   --grey-200: #bcccdc;
-  --grey-300: #9fb3c8;
-  --grey-400: #829ab1;
-  --grey-500: #627d98;
-  --grey-600: #486581;
-  --grey-700: #334e68;
-  --grey-800: #243b53;
-  --grey-900: #102a43;
+  --grey-300: #9fb0c8;
+  --grey-400: #829db1;
+  --grey-500: #487481;
+  --grey-600: #265972;
+  --grey-700: #335e68;
+  --grey-800: #245153;
+  --grey-900: #103a43;
   /* rest of the colors */
   --black: #222;
   --white: #fff;
@@ -43,8 +44,8 @@ html {
   --green-dark: #0f5132;
 
   /* fonts  */
-  --headingFont: "Encode Sans Expanded", sans-serif;
-  --bodyFont: "Crimson Text", serif;
+  --headingFont: "Roboto Condensed", Sans-Serif;
+  --bodyFont: "Cabin", Sans-Serif;
   --small-text: 0.875rem;
   --extra-small-text: 0.7em;
   /* rest of the vars */
@@ -147,7 +148,7 @@ ul {
 .btn {
   cursor: pointer;
   color: var(--white);
-  background: var(--primary-500);
+  background: var(--primary-700);
   border: transparent;
   border-radius: var(--borderRadius);
   letter-spacing: var(--letterSpacing);
@@ -158,7 +159,7 @@ ul {
   display: inline-block;
 }
 .btn:hover {
-  background: var(--primary-700);
+  background: var(--primary-500);
   box-shadow: var(--shadow-3);
 }
 .btn-hipster {
