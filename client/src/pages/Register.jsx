@@ -1,4 +1,5 @@
 import Logo from "../components/Logo"
+import { useState, useEffect } from "react";
 
 
 const Register = () => {
