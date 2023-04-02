@@ -1,6 +1,12 @@
+import Logo from "../components/Logo"
+
+
 const Register = () => {
     return (
-        <div>Register</div>
+        <div>
+            <Logo />
+
+        </div>
     )
 }
 export default Register

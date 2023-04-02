@@ -1,29 +1,6 @@
 import styled from 'styled-components'
 
 const Wrapper = styled.main`
-   .nav-content img {
-  width: 30%;
-  height: auto;
-}
-.nav-content {
-  display: flex;
-}
-.nav-content img {
-  width: 100px;
-  height: 100px;
-  border-radius: 30px;
-  margin: 10px;
-  padding: 10px;
-}
-
-.nav-content h1 {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  margin-top: 27px;
-  padding-right: 20px;
-}
-
    .page{
     min-height: calc(70vh);
     display: grid;

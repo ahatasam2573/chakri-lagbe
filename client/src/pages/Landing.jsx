@@ -8,7 +8,6 @@ const Landing = () => {
         <Wrapper>
             <nav className='nav-content'>
                 <Logo />
-                <h1>Chakri Lagbe</h1>
             </nav>
 
             <div className="container page">
